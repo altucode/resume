@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  height: 1100px;
+  width: 850px;
+  margin: auto;
+  padding: 10px 50px;
+  background: #FFFEFE;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #464749;
+}
+
+a {
+  color: #7DA3A3;
+  height: 100%;
+}
+
+header {
+  background: ;
+  height: 20px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300px;
+  margin: 30px 0 0 0;
+}
+
+ul {
+  margin: 0px 0px;
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 0px 10px;
+}
+
+li {
+  margin: 10px;
+}
+
+ul#contact {
+  width: 100%;
+  background: #8B1510;
+  color: #FFFEFE;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+ul#contact, ul#online {
+  list-style :none;
+}
+
+ul#contact > li,
+ul#online > li > * {
+  font-size: 12px;
+}
+
+ul#online > li > * {
+  vertical-align: middle;
+}
+
+ul#contact > li {
+  display: inline;
+  padding: 0px 10px;
+  margin: 0;
+}
+
+ul#contact > li:nth-child(n+2) {
+  border-left: 1px solid #FFFEFE;
+}
+
+ul#online img {
+  height: 26px;
+  width: 26px;
+}
+
+ul#experience {
+  padding: 10px 5px;
+}
+
+ul#experience > li:before {
+  content:'▪';
+  padding: 2px;
+}
+
+ul#experience > li {
+  display: inline-block;
+  margin:0 5px;
+  height: 25px;
+  vertical-align: text-top;
+  width: 48%;
+}
+
+ul#employment .date {
+  float: right;
+  color: #464749;
+}
+
+ul#employment p {
+  margin: 5px 20px;
+}

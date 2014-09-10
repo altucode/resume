@@ -1,0 +1,41 @@
+* {
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  font-family: sans-serif;
+  height: 100%;
+  margin: auto;
+}
+
+nav.sidebar {
+  position: relative;
+  float: left;
+  height: 100%;
+  min-width: 10%;
+  max-width: 15%;
+  top: 20%;
+  text-align: center;
+}
+
+nav.sidebar > a {
+  display: block;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+body > div {
+  display: inline-block;
+  min-width: 85%;
+  max-width: 90%;
+  height: 100%;
+}
+
+body iframe {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
