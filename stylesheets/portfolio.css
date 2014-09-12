@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+* {
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}

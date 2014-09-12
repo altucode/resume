@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h3, h4 {
+  text-align: center;
+}
+
+h4 {
+  border-bottom: 1px solid #ACACAC;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+h3 span, h4 span {
+  color: #ACACAC;
+  background: white;
+  padding:0 40px;
+  vertical-align: text-bottom;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul:nth-of-type(3) > li:nth-child(n+2):before {
+  content: '•';
+  margin: 0px 10px;
+}
+
+sup {
+  color: #70D070;
+}
+
+img {
+  display: block;
+  max-height: 150px;
+  max-width: 150px;
+}
